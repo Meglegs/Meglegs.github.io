@@ -4,24 +4,31 @@ body {
     font-family: 'Roboto', sans-serif;
     display: block;
     margin: auto;
-    max-width: 50%;
+    max-width: 80%;
+    background-color: rgb(140, 104, 104);
 }
 
 h1 {
-    background-color: rgb(140, 104, 104);
-    color: white;
-    font-size: 2.8em;
-    padding-top: .6em;
+    background-color: rgb(14, 104, 104);
+    background-size: cover;
+    color: rgb(252, 238, 238);
+    font-size: 3.2em;
+    padding-top: 1.6em;
     padding-bottom: .6em;
     margin-top: 30px;
     padding-left: 30px;
+    width: 100%;
+    justify-self: auto;
 }
 
-img {
+h2 {
+    justify-content: center;
+    font-weight: lighter;
+}
+
+img[src="megpic.jpg"] {
+    width: 10.8em;
     float: right;
-    max-width: 150px;  
-    margin-right: 10px;
-    margin-top: 10px;
 }
 
 .centerSection {
@@ -35,4 +42,15 @@ footer {
 
 .updated {
     font-size: .7em;
+}
+
+ul {
+    background: gray;
+    padding-bottom: .7em;
+    padding-top: .7em;
+}
+
+li {
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
