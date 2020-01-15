@@ -27,8 +27,9 @@ h2 {
 }
 
 img[src="megpic.jpg"] {
-    width: 10.8em;
+    width: 11.8em;
     float: right;
+    margin-top: 10px;
 }
 
 .centerSection {
