@@ -3,9 +3,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     display: block;
-    margin: auto;
     max-width: 80%;
     background-color: rgb(140, 104, 104);
+    padding-left: 6.5%;
 }
 
 h1 {
@@ -49,6 +49,7 @@ ul {
     background: gray;
     padding-bottom: .7em;
     padding-top: .7em;
+    border: 5px, solid, cadetblue;
 }
 
 li {

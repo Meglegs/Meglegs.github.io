@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(140, 104, 104);
+    float: left;
+    font-family: 'Roboto: 500', sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}  
+
+header{
+    max-width: 100%;
+    font-family: 'Roboto: 900', sans-serif;
+    color: black;
+    background-color:rgb(140, 104, 104);
+    padding: 1.5em;
+    padding-left: 75%;
+
+}
+
+h1 {
+    font-size: 5em;
+    font-family: 'Roboto: 900', sans-serif;
+    margin-bottom: 1px;
+    color: black;
+}
+
+h2 {
+    font-family: 'Roboto: 900', sans-serif;
+    margin-top: .5em;
+    font-size: 6em;
+}
+
+h3 {
+    max-width: 9em;
+    font-size: 3em;
+    color:rgb(252, 238, 238);
+
+}
+
+h4 {
+    font-size: 1em;
+    color: rgb(252, 238, 238);
+}
+
+
+img {
+    max-width: 100%;
+    margin: 0px;
+}
+
+section {
+    background-color:   rgb(14, 104, 104);;
+    border-style: solid;
+    border-width: 1em;
+    border-color: rgb(14, 104, 104);
+    margin: 1em;
+    border-top-left-radius: 10px; border-top-right-radius: 10px;
+   
+
+}
+
+a {
+    background-color:gray;
+    color: black;
+    font-size: 1em;
+    margin-top: 3px;
+}
+
+section p {
+    background-color: rgb(252, 238, 238);
+    color: black;
+    padding: 2px;
+    padding-top: 1em;
+    margin: 0px;
+}
+
+
+
+/* class comments */
+
+.topSection{
+   color: black;
+    padding-left: 1em;
+    padding-top: .5em; 
+    padding-bottom: 2em;
+    font-family: 'Roboto: 500', sans-serif;
+
+}
+
+.head {
+    text-align: left;
+    margin-top: 3em; margin-bottom: 3em;
+    color: white;
+    margin-left: 20px;
+}
+
+
+/* id selectors */
