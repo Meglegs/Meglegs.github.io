@@ -38,7 +38,7 @@ section {
 }
 
 #pic2 {
-    width: 15.5em;
+    width: 1.5em;
 }
 
 #nav {
@@ -149,7 +149,7 @@ d {
 
 
 h4 {
-    background-color: bisque;
+    background-color: rgb(240, 221, 232);
     font-size: xx-large;
     text-align: center;
     padding-right: 1em;
@@ -157,14 +157,14 @@ h4 {
 }
 
 h5 {
-    background-color: bisque;
+    background-color: rgb(226, 208, 208);
     font-size: xx-large;
     text-align: center;
 }
 
 
 h6 {
-    background-color: bisque;
+    background-color: rgb(50, 78, 72);
     font-size: xx-large;
     text-align: center;
     
@@ -184,22 +184,22 @@ footer {
 
 #weather-summary {
     position: absolute;
-    top: 60px;
-    right: 60px;
-    background-color: #9D866B;
+    top: 50px;
+    right: 50px;
+    background-color: rgb(112, 111, 108);
     opacity: 0.67;
     color: #f1f4f3;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
 aside {
     position: absolute;
-    top: 60px;
-    left: 60px;
-    background-color: #9D866B;
+    top: 50px;
+    left: 50px;
+    background-color:  rgb(112, 111, 108);
     opacity: 0.67;
     color: #f1f4f3;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
 }
