@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500&display=swap" rel="stylesheet">
+    <link rel="normalizesheet" href="styles/normalize.css">
+    <link rel = "stylesheet" href="styles/small.css">
+    <link rel = "stylesheet" href = "styles/medium.css">
+    <link rel = "stylesheet" href = "styles/large.css">
+
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap&subset=greek,vietnamese');
+        </style>
+        
+    <header>
+        
+        <icn id="banner">
+            <ul>
+                <li><img src = "images/flowy copy 2.png" alt = "Photo of Meg Stevenson" id="pic1"></li>
+                <li><p id="bannertext">Tangls,</p></li>
+                <li><p id="bannertext">one strand at a time</p></li>
+            </ul>
+        </icn>
+        <nav id ="nav"> 
+            <ul>
+
+                <li>
+                    <a href = "index.html">
+                    </a>
+                </li>
+                <li><a href = "#" class = "active">Home</a></li>
+                <li><a href = "#">PRESTON</a></li>
+                <li><a href = "#">SODA SPRINGS</a></li>
+                <li><a href = "#">FISH HAVEN</a></li> 
+                <li><a href = "#">STORM CENTER</a></li>
+                <li><a href = "#">GALLERY</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section class ="leftAlignedContent">
+
+        <main>
+            <section id="preston">
+
+                <h4><picture>
+                    <source srcset="images/small.jpg" id="pic1" media="(max-width: 600px)">
+                    <source srcset="images/medium.jpg" id="pic2" media="(max-width: 800px)">
+                    <source srcset="images/large.jpg" id="pic3" media="(min-width: 1000px)">
+                    <img src="images/cit230_image_franklinOriginal.jpeg.jpg" alt="hero" id="pic1">
+                </picture></h4>
+                <section class="summary">
+                <h2>Weather Summary</h2>
+                <div><span>Current Temperature: </span><span id="curTemp"></span></div>
+                <div><span>Wind Speed: </span><span id="windSpeed"></span></div>
+                <div><span>Humidity: </span><span id="humidity"></span></div>
+                </section>
+            </section>
+            <section id="hero">
+                <h5></h5>
+            </section>
+            <section id="five_day_forecast">
+                <table>
+                    <tr>
+                        <th colspan="5">Five Day Forecast</th>
+                    </tr>
+                    <tr>
+                        <td>0&deg; </td>
+                        <td>0&deg; </td>
+                        <td>0&deg; </td>
+                        <td>0&deg; </td>
+                        <td>0&deg; </td>
+                    </tr>
+                </table>
+            </section>
+            <section id="article">
+                <h6>Preston</h6>
+                
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Eos aspernatur earum fugit reiciendis hic dolorum reprehenderit. 
+                Porro animi, aliquam dolorum aperiam adipisci aspernatur laboriosam delectus dolores, 
+                mollitia quibusdam officiis iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Harum, necessitatibus. Ab quisquam quidem dolorem corrupti aliquid, laborum aut. 
+                </p>
+            </section>
+            <section id="contact">
+                <h6>Contact</h6>
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d35525.94677079673!2d-111.9025676!3d42.0968563!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e1!3m2!1sen!2sus!4v1581010192298!5m2!1sen!2sus" width="40%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <p>
+                    <h3>Tangls Weather Contact:</h3> <br>
+                    300 River Road <br>
+                    Boise, Idaho <br>
+                    999-999-9999 <br>
+                </p>
+            </section>
+        </main>
+
+        <aside>
+            <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </aside>
+    </section>
+<footer>
+    <p> &copy; Tangls Weather Site | Meg Stevenson | <span id="date"></span> </p>
+</footer>
+    <script src="scripts/date.js"></script>
+</body>
+</html>
