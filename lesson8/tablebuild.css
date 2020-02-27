@@ -1,17 +1,29 @@
-table, th, td {
-    border: 1px solid black;
-  }
+table {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
 
   tr:nth-child(even) {
-    background-color: #dddddd;
+  
+    background-color:#e7ffed;
   }
+
+  tr:nth-child(odd) {
+  
+    background-color:#e7f0ed;
+  }
+
 
   th, td {
     padding: 15px;
   }
 
  caption {
-     font-size: larger;
+     font-size: 2em;
+    
+     background-color:#7fb9c2;
   }
   
- 
+  table#t01 th {
+    background-color:  #628ca6;
+    color: white;
