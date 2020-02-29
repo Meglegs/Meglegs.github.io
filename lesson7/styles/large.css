@@ -12,4 +12,11 @@
     left: 28em;
 
 }
+
+.galleryGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin-top: 10px;
+}
 }

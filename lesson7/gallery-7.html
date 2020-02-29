@@ -4,96 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Preston</title>
-    <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "styleW01.css">
     <link rel="normalizesheet" href="styles/normalize.css">
     <link rel = "stylesheet" href="styles/small.css">
     <link rel = "stylesheet" href = "styles/medium.css">
     <link rel = "stylesheet" href = "styles/large.css">
-
 </head>
-
+<header>
+    <h1>Rain || Shine</h1>
+</header>
 <body>
     <style>
         @import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap&subset=greek,vietnamese');
         </style>
-        
-    <header>
-        
-        <icn id="banner">
-            <ul>
-                <li><img src = "images/flowy copy 2.png" alt = "Photo of Meg Stevenson" id="pic1"></li>
-                <li><p id="bannertext">Tangls,</p></li>
-                <li><p id="bannertext">one strand at a time</p></li>
+        <body>
+        <nav>
+        <nav>
+            <ul class="flex navigation">
+            <div class="topnav">
+                <li class="ham" href="#">&equiv; Menu</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#prest" >Preston</a></li>
+                <li><a href="#soda">Soda Springs</a></li>
+                <li><a href="#fish">Fish Haven</a></li>
+                <li><a class="active" href="#storm">Storm Center</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </div>
             </ul>
-        </icn>
-        <nav id ="nav"> 
-            <ul>
-
-                <li>
-                    <a href = "index.html">
-                    </a>
-                </li>
-                <li><a href = "#" class = "active">Home</a></li>
-                <li><a href = "#">PRESTON</a></li>
-                <li><a href = "#">SODA SPRINGS</a></li>
-                <li><a href = "#">FISH HAVEN</a></li> 
-                <li><a href = "#">STORM CENTER</a></li>
-                <li><a href = "#">GALLERY</a></li> 
-            </ul>
+          </nav>
         </nav>
-    </header>
+            
+        <main>
+            <div class="galleryGrid">
+                <picture>
+                    <img src="images/big cloud.jpg" alt="">
+                    <figcaption>Big Clouds</figcaption>
+                </picture>
+                <picture>
+                    <img src="images/rainbow.jpg" alt="">
+                    <figcaption>Rainbow</figcaption>
+                </picture>
+                <picture>
+                    <img src="images/snow.jpg" alt="">
+                    <figcaption>Snow</figcaption>
+                </picture>
+                <picture>
+                    <img src="images/foggy.jpg" alt="">
+                    <figcaption>Foggy</figcaption>
+                </picture>
+                <picture>
+                    <img src="images/mostlysunny.jpg" alt="">
+                    <figcaption>Mostly Sunny</figcaption>
+                </picture>
+                <picture>
+                    <img src="images/storm.jpg" alt="">
+                    <figcaption>Storm</figcaption>
+                </picture>
+                <picture>
+                    <img src="images/tornado.jpg" alt="">
+                    <figcaption>Tornado</figcaption>
+                </picture>
+                <picture>
+                    <img src="images/windy.jpg" alt="">
+                    <figcaption>Windy</figcaption>
+                </picture>
+                <picture>
+                    <img src="images/rain storm.jpg" alt="">
+                    <figcaption>Rain Storm</figcaption>
+                </picture>
+            </div>
+        </main>
+    
+        
+        
 
-    <main class="gallery">
-        <section id="gallery-main">
-            <figure>
-                <img src="images/pic1.jpg" data-src="images/pic1.jpg" alt="Sunny">
-                <figcaption>Sunshine</figcaption>
-            </figure>
-            <figure>
-                <img src="images/pic2.jpg" data-src="images/pic2.jpg" alt="Truck">
-                <figcaption>White Truck with Storm</figcaption>
-            </figure>
-            <figure>
-                <img src="images/pic3.jpg" data-src="images/pic3.jpg" alt="Clouds">
-                <figcaption>Sunny Clouds</figcaption>
-            </figure>
-            <figure>
-                <img src="images/pic4.jpg" data-src="images/pic4.jpg" alt="Mountain Fog">
-                <figcaption>Mountain Fog</figcaption>
-            </figure>
-            <figure>
-                <img src="images/pic5.jpg" data-src="images/pic5.jpg" alt="Windy Sea">
-                <figcaption>Winter Mountains</figcaption>
-            </figure>
-            <figure>
-                <img src="images/pic6.jpg" data-src="images/pic6.jpg" alt="Lighting">
-                <figcaption>Lightning</figcaption>
-            </figure>
-            <figure>
-                <img src="images/pic7.jpg" data-src="images/pic7.jpg" alt="Fogggy Forest">
-                <figcaption>Foggy Forest</figcaption>
-            </figure>
-            <figure>
-                <img src="images/pic8.jpg" data-src="images/pic8.jpg" alt="Stormy Clouds">
-                <figcaption>Stormy Clouds</figcaption>
-            </figure>
-            <figure>
-                <img src="images/pic9.jpg" data-src="images/pic9.jpg" alt="Mountain Valley">
-                <figcaption>Mountain Valley</figcaption>
-            </figure>
-        </section>
-    </main>
-
-    <section class ="leftAlignedContent">
-
-        <aside>
-            <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
-        </aside>
-    </section>
-<footer>
-    <p> &copy; Tangls Weather Site | Meg Stevenson | <span id="date"></span> </p>
-</footer>
-    <script src="scripts/date.js"></script>
-</body>
-</html>
+        <footer>
+            &copy; The Weather Site | <span id="current-date"></span>  Meg Stevenson
+           
+            
+        </footer>
+    </body>
+    </html>
