@@ -1,14 +1,5 @@
-body {
-    background-color: lightgray;
-}
-
-#church {
-    background-color: lightgray;
-}
-
-
 article {
-    background-color: #b8b8db;
+    background-color: white
     margin: 10px;
     padding: 10px 0px 10px 0px;
     text-align: center;
@@ -23,7 +14,6 @@ h1 {
 
 img {
     width: 200px;
-    box-shadow: 0px 0px 20px black;
 }
 
 section {
