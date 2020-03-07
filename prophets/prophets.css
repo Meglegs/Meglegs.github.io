@@ -1,0 +1,34 @@
+article {
+    background-color: #b8b8db;
+    margin: 10px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border: solid 1px #504f8a;
+}
+
+h1 {
+    color: #504f8a;
+    text-align: center;
+    font-size: 30px;
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+footer {
+    text-align: center;
+}
+
+@media only screen and (min-width: 32.5em){
+    section {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 60em){
+    section {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
