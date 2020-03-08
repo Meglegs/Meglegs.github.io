@@ -108,6 +108,13 @@ nav ul {
 .navigation li:first-child {
 	display: block;
 }
+
+.home {
+    display: grid;
+    border: none;
+    grid-column-gap: 50px;
+    text-align: center;
+}
 /*
 .navigation li {
 	display: none;
