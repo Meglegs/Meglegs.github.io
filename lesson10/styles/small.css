@@ -125,9 +125,9 @@ img {
     width: 100%;
 }
 .summary {
-    position: right;
-    top: 2em;
-    left: 3em;
+    position: fixed;
+    top: 5em;
+    left: 20em;
     max-width: 25%;
     opacity: 0.7;
     background-color: white;
