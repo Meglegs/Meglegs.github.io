@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #abc8c7;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #273e47;
+    color: #abc8c7;
+  }
+
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+
+  footer {
+      
+      color: black;
+      padding: 10px;
+      text-align: center;
+  }
+
+  nav {
+    background-color: #273e47;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a:hover {
+    color: white;
+    background-color:#802392;
+}
+
+nav a:active {
+    
+    background-color:#802392;
+    color: white;
+}
+
+ul .ham {
+    color: white;
+    padding-left: 1em;
+   
+}
+
+.stormCenterbutton {
+    color: white;
+    background-color: #0D0A0B;
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    
+}
+
+div {
+    color: black;
+    
+}
+
+.flex {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+}
+
+
+main {
+    margin: 0 auto;
+    max-width: 80%;
+    text-align: center;
+
+    
+}
+
+h2 {
+    text-align: center;
+
+}
+nav ul {
+    margin: 0;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+
+
+/*
+.navigation li {
+	display: none;
+}
+
+
