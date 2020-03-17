@@ -48,7 +48,7 @@ function pancakes() {
 // function to show the weekdays and their temps. (Working with JS variables)
 function forecasting() {
 
-    const apiURLF = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=d371a45960fcec8ac86717a7368063eb&units=imperial';
+    const apiURLF = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=e17ce07f9a4e7d3efd14609277a750d4&units=imperial';
     fetch(apiURLF)
     .then((response) => response.json())
     .then((jsObject) => {
