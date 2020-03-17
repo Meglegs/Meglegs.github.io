@@ -124,3 +124,42 @@ img {
     margin: 0 auto;
     width: 100%;
 }
+.summary {
+    position: absolute;
+    top: 2em;
+    left: 3em;
+    max-width: 25%;
+    opacity: 0.7;
+    background-color: white;
+    justify-items: center;
+    padding: 5px;
+}
+
+main {
+    margin: 0 auto;
+    width:90%;
+    text-align: center;
+}
+
+
+.contact {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height:150px;
+}
+
+.town_article {
+    background-color: lightgray;
+    color:var(--text-color);
+    padding: .5em;
+    margin-bottom: 2em;
+}
+
+.hero {
+    position: relative;
+    width:100%;
+    margin: 1.5em auto;
+    height: 300px;
+    
+}
