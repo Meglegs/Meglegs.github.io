@@ -125,7 +125,7 @@ img {
     width: 100%;
 }
 .summary {
-    position: fixed;
+    position: absolute;
     top: 5em;
     left: 20em;
     max-width: 25%;

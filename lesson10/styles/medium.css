@@ -13,3 +13,8 @@
 .navigation li:first-child {
     display: none;
 }
+
+.summary
+{
+    position: absolute;
+}
