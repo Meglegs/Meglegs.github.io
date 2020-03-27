@@ -1,201 +1,117 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(117, 117, 117);
-    max-width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-header {
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #abc8c7;
+  }
 
-}
+  .topnav {
+    overflow: hidden;
+    background-color: #273e47;
+    color: #abc8c7;
+  }
 
-ul {
-    list-style: none;
-    border: 0px;
-   margin-right: 10em;
-    padding-bottom: 1em;
-    margin-top: 1em;
-    
-
-}
-
-section {
-    padding: 12px;
-    margin-top: 10px;
-}
-
-
-#pic1 {
-    width: 18.5em;
-}
-
-
-
-#nav {
-    background-color:rgb(131, 89, 89);
-}
-
-#bannertext {
-    font-size: 2.8em;
-}
-#banner {
-
-    background-color: rgb(131, 89, 89);
-}
-
-
-li {
-    padding-top: 1em; padding-bottom: 1em;
-}
-
-a {
-    color: black;
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    padding: .7em;
-}
+    font-size: 17px;
+  }
 
-p{
-    
-    font-size: large;
-}
-
-a:hover {
-    border-style: solid;
-    border-color: #d4a9a9;
-    transition-duration: 400ms;
-    font-size: 30px;
-}
-
-section{
-    margin:0px;
-}
-
-img[src="unnamed.png"]{
-    width: 11.8em;
-    float: right;
-    margin-top: 10px;
-    background-color: bisque;
-}
-
-
-h3 {
-    color: black;
-}
-
-
-.active {
-    background-color: white;
-    border-style: solid;
-    border-color: #d0c8c8;
-    border-radius: 2px;
-}
-
-.lefrAlignedContent{
-    padding: 5em;
-    padding-bottom: 10em;
-}
-
-
-
-#grid {
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  header {
     display: flex;
-    /*grid-template-columns: 4fr 4fr; */
-    padding: 1em;
-    background-color: #907878;
+    justify-content: center;
     
+    
+  }
+
+  footer {
+      
+      color: black;
+      padding: 10px;
+      text-align: center;
+  }
+
+  nav {
+    background-color: #273e47;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
 }
-#grid2 {
+
+nav a:hover {
+    color: white;
+    background-color:#802392;
+}
+
+nav a:active {
+    
+    background-color:#802392;
+    color: white;
+}
+
+ul .ham {
+    color: white;
+    padding-left: 1em;
+   
+}
+
+
+
+
+.flex {
     display: flex;
-    /*grid-template-columns: 4fr 4fr; */
-    padding: 1em;
-    background-color: #907878;
-    
+    flex-direction: column; 
+    justify-content: space-evenly;
 }
 
-
-
-#persona1 {
-    grid-column: 1/2;
-    padding-bottom: 2em;
-
-}
-
-#persona2 {
-    margin-left: inherit;
-    grid-column: 1/2;
-    padding-bottom: 2em;
-}
-
-#logo{
-    width: 56px;
-}
-
-d {
-    color: #907878;
-    font-size: larger;
-}
-
-
-h4 {
-    
-    font-size: xx-large;
-    text-align: center;
-    
-    
-}
-
-h5 {
-    background-color: rgb(226, 208, 208);
-    font-size: xx-large;
-    text-align: center;
-}
-
-
-h6 {
-    background-color: rgb(50, 78, 72);
-    font-size: xx-large;
-    text-align: center;
-    
-}
 
 main {
-    border: 0px;
-    margin-right: 10em;
-     padding-bottom: 1em;
-     margin-top: 1em;
+    margin: 0 auto;
+    max-width: 80%;
+    text-align: center;
+
+    
 }
- 
-footer {
-    padding: 1em;
+
+h2 {
+    text-align: center;
+
+}
+nav ul {
+    margin: 0;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+img {
+
+    size: 5px;
+}
+
+.galleryGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    margin-top: 10px;
+}
+main {
+    margin: 0 auto;
+    max-width: 80%;
     text-align: center;
 }
 
-aside {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    background-color:  rgb(112, 111, 108);
-    opacity: 0.67;
-    color: #f1f4f3;
-    padding-left: 18px;
-    padding-right: 18px;
-}
-
-.summary {
-    position: absolute;
-    top: 26em;
-    left: 35em;
-    opacity: 0.7;
-    background-color: rgb(112, 111, 108);
-    justify-items: center;
-    padding: 10px;
-}
-
-#heroimg {
-    max-width:100%;
-    max-height:100%;
+.galleryGrid img:hover {
+    box-shadow: 2px 2px 2px;
+    
 }
