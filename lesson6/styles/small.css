@@ -124,11 +124,13 @@ main {
     background-color: #FFFEAE;
 
 }
+
 #weather-summary {
     background-color: #F2F2F2;
-    left: 20%;
-    padding: 10px;
+    left: 55%;
+    top: 35%;
+    padding: 12px;
     position: absolute;
-    top: 1em auto;
-    opacity: .8;
+    top: 3em auto;
+    opacity: .7;
 }
