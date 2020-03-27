@@ -134,3 +134,8 @@ main {
     top: 3em auto;
     opacity: .7;
 }
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
