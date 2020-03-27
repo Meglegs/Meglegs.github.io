@@ -139,3 +139,13 @@ nav ul li.active a {
     background-color: rgba(0, 0, 0, 0.2);
     color: #fff;
 }
+
+.grid {
+    max-width: 1500px;
+}
+
+#article img {
+    float: right;
+    margin: 0 0 1em 1em;
+    width: 280px;
+}
