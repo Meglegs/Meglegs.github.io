@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = "stylesheet" href = "styleW01.css">
+    <link rel="normalizesheet" href="styles/normalize.css">
+    <link rel = "stylesheet" href="styles/small.css">
+    <link rel = "stylesheet" href = "styles/medium.css">
+    <link rel = "stylesheet" href = "styles/large.css">
+</head>
+<aside class="hidden">
+    <p id="pancakes">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+</aside>
+<header>
+    <h1>Rain || Shine</h1>
+</header>
+<body>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap&subset=greek,vietnamese');
+        </style>
+        <body>
+        <nav>
+        <nav>
+            <ul class="flex navigation">
+            <div class="topnav">
+                <li>
+                    <a class="ham" href="#">&#9776; Menu</a>
+                 </li>
+                
+                 <li>
+                     <a href="index.html" >Home</a>
+                 </li>
+                 <li class="active">
+                     <a  href="preston-6.html">Preston</a>
+                 </li>
+                 <li>
+                     <a href="sodaSprings.html">Soda Springs</a>
+                 </li>
+                 <li>
+                     <a href="fishHaven.html">Fish Haven</a>
+                 </li>
+                 <li>
+                     <a href="stormcenter.html">Storm Center</a>
+                 </li>
+                 <li>
+                     <a href="gallery-7.html">Gallery</a>
+                 </li>
+            </div>
+            </ul>
+          </nav>
+        </nav>
+            
+        <main class="grid">
+            <section id="hero">
+                <picture>
+                    <source srcset="images/sodaSprings3.jpg" media="(max-width: 400px)">
+                    <source srcset="images/sodaSprings2.jpg" media="(max-width: 800px)">
+                    <source srcset="images/sodaSprings.jpg" media="(min-width: 801px)">
+                    <img src="images/fishHaven1.jpg" alt="Hero Image"> 
+                </picture>
+                <article id="weather-summary">
+                    <h1>Weather Summary</h1>
+                   <hr>
+                    <div>
+                        <span>Currently:</span>
+                        <span id="weatherDesc"></span>
+                        <img id="weatherImage" src="" alt="">
+                    </div>
+                    <div>
+                        <span>High:</span>
+                        <span id="highTemp"></span>
+                    </div>
+                    <div>
+                        <span>Current Temp:</span>
+                        <span id="currentTemp"></span>
+                    </div>
+                    <div>
+                        <span>Wind Speed:</span>
+                        <span id="windSpeed"></span>
+                    </div>
+                    <div>
+                        <span>Wind chill:</span>
+                        <span id="windChill"></span>
+                    </div>
+                    <div>
+                        <span>Humidity:</span>
+                        <span id="humidity"></span>
+                    </div>
+                </article>
+            </section>
+            <section id="five-day-forecast">
+               <table>
+                   <caption>Five-day Forecast</caption>
+                   <thead>
+                       <tr>
+                       <th id="day1">Day 1</th>
+                       <th id="day2">Day 2</th>
+                       <th id="day3">Day 3</th>
+                       <th id="day4">Day 4</th>
+                       <th id="day5">Day 5</th>
+                       </tr>
+                   </thead>
+                   <tbody>
+                    <tr>
+                        <td><img id="img1" src="" alt=""></td>
+                        <td><img id="img2" src="" alt=""></td>
+                        <td><img id="img3" src="" alt=""></td>
+                        <td><img id="img4" src="" alt=""></td>
+                        <td><img id="img5" src="" alt=""></td>
+                    </tr>
+                </tbody>
+                   <tbody>
+                       <tr>
+                           <td id="temp1">42&deg;</td>
+                           <td id="temp2">39&deg;</td>
+                           <td id="temp3">44&deg;</td>
+                           <td id="temp4">35&deg;</td>
+                           <td id="temp5">45&deg;</td>
+                       </tr>
+                   </tbody>
+               </table>
+            </section >
+            <section id="cityEvents">
+                <h3>Upcoming Events:</h3>
+                <hr>
+                <ul id="events">
+                </ul>
+            </section>
+            <section id="articles">
+                
+                <article id="city-article">
+                    <img id="article-image" src="images/sodaPic.jpg" alt="pic of preston">
+                    <h3>Soda Springs</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, mei ne equidem pertinax, ut eam eruditi vivendo. delicatissimi ne mel. 
+                        Aeque nonumy phaedrum at pri, semper percipit oporteat id qui. Accusata perpetua delicatissimi et nec. 
+                        Sapientem reprimique theophrastus nam no, te evertitur adolescens ius.Habeo mollis eos in, melius 
+                        accumsan neglegentur no mea. Consul nonumes fierent mel in, epicuri disputationi nam te, pri vitae 
+                        molestiae laboramus at. At vis nullam partiendo, aeque utamur ad mea. Te his inciderint dissentiunt, 
+                        etiam ridens impetus mei id.
+                         
+                       
+                       <a href="https://archive.sltrib.com/article.php?id=4022003&itype=CMSID" target="_blank">Continue reading article here</a> 
+                    </p>
+                </article>
+            </section>
+            <section id="contact-info" class="flex">
+                <address>
+                    <h2>Rain or Shine</h2> <br>
+                    123 ABC street <br>
+                    Awesome City, ID <br>
+                    999 - 333 - 3333 
+                </address>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1584842352031!5m2!1sen!2sus"
+                 width="35%" frameborder="0" style="border:0;" allowfullscreen="">
+                </iframe>
+            </section>
+        </main>
+        
+        
+
+        <footer>
+            &copy; The Weather Site | <span id="current-date"></span>  Meg Stevenson
+           
+            
+        </footer>
+    </body>
+    </html>
