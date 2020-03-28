@@ -209,3 +209,9 @@ nav ul li.active a {
     padding-left: 1.5em;
     padding-right: 1.5em;
 }
+.home {
+    display: grid;
+    border: none;
+    grid-column-gap: 50px;
+    text-align: center;
+}
