@@ -149,3 +149,63 @@ nav ul li.active a {
     margin: 0 0 1em 1em;
     width: 280px;
 }
+
+
+#cities{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#fishHavenImage{
+    height: 300px;
+    width: 300px;
+}
+
+#prestonImage{
+    height: 300px;
+    width: 300px;
+}
+
+#sodaSpringsImage{
+    height: 300px;
+    width: 300px;
+}
+
+#fishHavenMotto{
+    min-height: 2.5em;
+}
+
+#prestonMotto{
+    min-height: 2.5em;
+}
+
+#sodaSpringsMotto{
+    min-height: 2.5em;
+}
+#fish-haven-index{
+    text-align: center;
+    background-color: #F2F2F2;
+    margin: 10px;
+}
+
+#preston-index{
+    text-align: center;
+    background-color: #F2F2F2;
+    margin: 10px;
+}
+
+#soda-springs-index{
+    text-align: center;
+    background-color: #F2F2F2;
+    margin: 10px;
+}
+
+#cities img{
+    width: 100%;
+}
+#cityEvents{
+    max-width: 325px;
+    margin: 0 auto;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
