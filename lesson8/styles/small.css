@@ -108,9 +108,10 @@ nav ul {
 .navigation li:first-child {
 	display: block;
 }
-/*
-.navigation li {
-	display: none;
+
+
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
 }
-
-
