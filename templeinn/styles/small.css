@@ -6,10 +6,17 @@ ul {
   }
 
   li {
-    float: right;
+    float: left;
   }
   
   li a:hover {
-    background-color: rgb(199, 192, 192)99, 89, 89);
+    background-color: rgb(199, 192, 192);
   }
 
+  li a {
+    display: block;
+    color: rgb(199,192, 192);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
