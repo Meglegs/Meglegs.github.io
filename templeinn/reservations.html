@@ -20,22 +20,44 @@
      </ul>
      <main>
         <form action="thanks.html" method="GET">
-     <div>
-        <label for="fullName">Full Name: </label>
-        <input type="text" id="fullName" name="fullName" required>
-        </div>
-        <div>
-        <label for="email">Email: </label>
-        <input type="text" id="email" name="email" placeholder="email@domaincom">
-        </div>
-        <div>
-            <label for="phoneNumber">Phone Number: </label>
-            <input type="phoneNumber" id="phoneNumber" name="phoneNumber" required>
-        </div>
-        <div>
-            <label for="reservationDate">Reservation Date: </label>
-            <input type="date" id="reservationDate" name="reservationDate">
-        </div>
+            <div>
+            <label for="fullName">Full Name: </label>
+            <input type="text" id="fullName" name="fullName" required>
+            </div>
+            <div>
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="email" placeholder="email@domaincom">
+            </div>
+            <div>
+                <label for="phoneNumber">Phone Number: </label>
+                <input type="phoneNumber" id="phoneNumber" name="phoneNumber" required>
+            </div>
+            <div>
+                <label for="zipCode">Zip Code: </label>
+                <input type="zipCode" id="zipCode" name="zipCode" required>
+            </div>
+            <div>
+                <label for="stormDate">Strom Date: </label>
+                <input type="date" id="stormDate" name="stormDate">
+            </div>
+            <div>
+                <label for="stormType">Strom Type: </label>
+                <input list="stormType" id="stormType" name="browser">
+                <datalist id="browser">
+                    <option value="Flash Flood">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">   
+                </datalist>
+            </div>
+            
+            
+        
+            <div>
+                <input type="submit" value="Submit"  href="thanks.html" class="stormCenterbutton">
+            </div>
+        </form>
     </main>
+    
  </body>
     </html>
