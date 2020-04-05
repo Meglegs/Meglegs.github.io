@@ -12,11 +12,30 @@
 
  <body>
      <ul>
-        <li><a href="#contact">Contact</a></li> 
-        <li><a class="active" href="#reservations">Reservations</a></li>
-        <li><a href="#services">Services</a></li> 
-        <li><a href="#temples">Temples</a></li> 
-        <li><a href="#home">Home</a></li>
+        <li><a href="contact.html">Contact</a></li> 
+        <li><a class="active" href="reservations.html">Reservations</a></li>
+        <li><a href="services.html">Services</a></li> 
+        <li><a href="temples.html">Temples</a></li> 
+        <li><a href="home.html">Home</a></li>
      </ul>
+     <main>
+        <form action="thanks.html" method="GET">
+     <div>
+        <label for="fullName">Full Name: </label>
+        <input type="text" id="fullName" name="fullName" required>
+        </div>
+        <div>
+        <label for="email">Email: </label>
+        <input type="text" id="email" name="email" placeholder="email@domaincom">
+        </div>
+        <div>
+            <label for="phoneNumber">Phone Number: </label>
+            <input type="phoneNumber" id="phoneNumber" name="phoneNumber" required>
+        </div>
+        <div>
+            <label for="reservationDate">Reservation Date: </label>
+            <input type="date" id="reservationDate" name="reservationDate">
+        </div>
+    </main>
  </body>
     </html>
