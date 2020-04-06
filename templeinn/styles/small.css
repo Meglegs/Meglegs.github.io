@@ -62,3 +62,9 @@ main {
     box-shadow: 2px 2px 2px;
     
 }
+
+div.gallery {
+    margin: 5px;
+    float: left;
+}
+
