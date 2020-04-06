@@ -45,3 +45,30 @@ ul {
     width: 95%;
     padding: 20px;
   }
+
+  .galleryGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    margin-top: 10px;
+}
+main {
+    margin: 0 auto;
+    max-width: 80%;
+    text-align: center;
+}
+
+.galleryGrid img:hover {
+    box-shadow: 2px 2px 2px;
+    
+}
+
+.contactGrid {
+    size: 14em;
+
+}
+
+.prargraph {
+
+    disp
+}
