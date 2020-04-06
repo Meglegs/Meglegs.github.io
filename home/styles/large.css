@@ -19,4 +19,8 @@
     grid-gap: 5px;
     margin-top: 10px;
 }
+
+#cities img{
+    width: 60%;
+}
 }
