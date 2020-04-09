@@ -80,3 +80,7 @@ p {
     padding-bottom: 3em;
     text-align: center;
 }
+
+.active {
+    background-color: #717171;
+  }
